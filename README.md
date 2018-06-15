@@ -5,10 +5,10 @@ Tasks:
 Create own framework to be used on Sites from nothing!
 
 Kelsey:
-Handling HTML and formating (UX) for the site
+Handling HTML and formatting (UX) for the site
 
 Lief:
-Handle the functionality with the broswer
+Handle the functionality with the browser
 
 THE RULES!!!
 Kelsey is the ONLY one that can touch HTML code
