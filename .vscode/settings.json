@@ -1,0 +1,98 @@
+{
+    {
+        "folders": [{
+            "path": "C:\\Users\\liefc\\project-team-training"
+        }],
+        "settings": {
+                "git.ignoreMissingGitWarning": true,
+                "telemetry.enableTelemetry": false,
+                "telemetry.enableCrashReporter": false,
+                "files.autoSave": "off",
+                "editor.fontSize": 15,
+                "editor.wordWrap": "on",
+                "editor.cursorBlinking": "expand",
+                "editor.cursorWidth": 2,
+                "editor.find.autoFindInSelection": true,
+                "editor.cursorStyle": "block",
+                "editor.renderLineHighlight": "gutter",
+                "editor.multiCursorModifier": "ctrlCmd",
+                "workbench.startupEditor": "newUntitledFile",
+                "editor.fontLigatures": true,
+                "editor.fontFamily": "Fira Code",
+                "material-icon-theme.folders.theme": "classic",
+                "window.zoomLevel": 0,
+                "editor.dragAndDrop": false,
+                "editor.fontWeight": "500",
+                "editor.lineNumbers": "on",
+                "editor.minimap.maxColumn": 120,
+                "editor.minimap.showSlider": "always",
+                "editor.minimap.side": "right",
+                "editor.smoothScrolling": true,
+                "atomKeymap.promptV3Features": true,
+                "editor.formatOnPaste": true,
+                "liveServer.settings.donotShowInfoMsg": true,
+                "workbench.colorTheme": "Monokai Dimmed",
+                "bracketPairColorizer.forceUniqueOpeningColor": true,
+                "bracketPairColorizer.forceIterationColorCycle": true,
+                "bracketPairColorizer.activeScopeCSS": [
+                    "borderStyle : solid",
+                    "borderWidth : 4px",
+                    "borderColor : {color}; opacity: 0.2",
+                    "backgroundColor : {color}"
+                ],
+                "bracketPairColorizer.showBracketsInGutter": true,
+                "bracketPairColorizer.showVerticalScopeLine": false,
+                "bracketPairColorizer.showHorizontalScopeLine": false,
+                "bracketPairColorizer.colorMode": "Consecutive",
+                "bracketPairColorizer.highlightActiveScope": true,
+                "bracketPairColorizer.consecutivePairColors": [
+                    "()",
+                    "[]",
+                    "{}", [
+                        "</",
+                        ">"
+                    ],
+                    [
+                        "<",
+                        "/>"
+                    ],
+                    [
+                        "<",
+                        ">"
+                    ],
+                    "<>", [
+                        "lightGrey",
+                        "lightBlue",
+                        "lightGreen"
+                    ],
+                    "Red"
+                ],
+                "materialTheme.fixIconsRunning": false,
+                "editor.matchBrackets": true,
+                "bracketPairColorizer.showBracketsInRuler": true,
+                "git.confirmSync": false,
+                "gitlens.advanced.messages": {
+                    "suppressShowKeyBindingsNotice": true
+                },
+                "gitlens.defaultDateFormat": "dddd, DD MMMM, HH:mm:ss",
+                "git.autofetch": false,
+                "workbench.statusBar.feedback.visible": false,
+                "git.enableSmartCommit": true,
+                "gitlens.blame.highlight.locations": [
+                    "gutter"
+                ],
+                "window.menuBarVisibility": "toggle",
+                "gitlens.gitExplorer.files.layout": "tree",
+                "workbench.activityBar.visible": false,
+                "editor.renderWhitespace": "none",
+                "editor.occurrencesHighlight": false,
+                "editor.selectionHighlight": true,
+
+
+
+
+            }
+
+        }
+    }
+}
