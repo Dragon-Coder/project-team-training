@@ -20,4 +20,6 @@ REQUIREMENTS
 
 We will go over the style of this tool but it should be similar to other apps. The goal will be to handle different functions over time from the same tool. We will need a layout of the tool along with displaying pretty data.
 
-We also need a way of getting this data and giving it to the browser. 
+We also need a way of getting this data and giving it to the browser. You will recieve a JSON object to handle. You will display this data in on the page after a button click at the top.
+
+Once the data is shown, a button needs to appear beside the "Get Data" button to say "Download Data" which will excute a CSV download of this data.
