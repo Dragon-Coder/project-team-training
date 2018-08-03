@@ -1,0 +1,96 @@
+h1 {
+  font-family: Oswald, sans-serif;
+  margin: 0 25 25 25px;
+  color: #444;
+  border-bottom: 1px #f2f2f2 solid;
+  padding-bottom: 25px;
+}
+
+body {
+  text-align: center;
+  font-family: open sans condensed, sans-serif;
+  background-color: #ececed;
+
+}
+
+.container {
+  background-color: #fff;
+  padding: 50px;
+ margin: auto;
+ width: 100%;
+ max-width: 700px;
+ border-bottom: solid 1px #ccc;
+
+}
+
+label {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.row {
+  display: inline-block;
+  width: 650px;
+  padding: 7px;
+}
+
+.semrow {
+  display: none;
+  width: 650px;
+  padding: 7px;
+}
+
+.col-40 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    text-align: right;
+}
+
+.col-60 {
+    float: right;
+    width: 60%;
+    margin-top: 6px;
+
+}
+
+.numbercol-40 {
+    float: right;
+    width: 60%;
+    margin-top: 6px;
+    font-size: 25px;
+
+}
+
+input, select {
+  width: 50%;
+  border: none;
+  border-bottom: #ececed solid 1px;
+  font-family: open sans condensed;
+  font-size: 20px;
+  text-align: center;
+}
+
+option {
+  text-align: center;
+}
+
+button {
+  background-color: #f8941e;
+  padding: 15px;
+  font-family: open sans condensed, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 25%;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 50px;
+  font-family: Oswald;
+  color: #444;
+  margin-top: 25px;
+}

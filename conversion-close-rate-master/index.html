@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Oswald|Roboto+Slab" rel="stylesheet">
     <meta charset="utf-8">
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -8,9 +9,17 @@
     <title>Close Rate Calculator</title>
   </head>
   <body>
-    <form>
-  Select Price Range   <br>
-  <select>
+    <img src="dslogo.png" alt="Dealer Spike Logo" style="margin: 50px;">
+      <div class="container">
+        <h1>Close Rate Calculator</h1>
+          <form id="calc">
+
+      <div class="row">
+          <div class="col-40">
+  <label for="price">Select Price Range</label>
+          </div>
+          <div class="col-60">
+<select name="range" onchange="changeValue(event)">
     <option value="500">$500-1000</option>
     <option value="1000">$1000-$2000</option>
     <option value="2000">$2000-$3000</option>
@@ -21,21 +30,58 @@
     <option value="7000">$7000-$8000</option>
     <option value="8000">$8000-$9000</option>
     <option value="9000">$9000-$10000</option>
-  </select><br>
-  Estimated Traffic  <br>
-  <input type="text" name="esttraffic">
-  <br><br>
-Average Conversion Rate<br>
-<h2>5.45%</h2><br>
+  </select>
+        </div>
+      </div>
 
-SEM Cannibalization Rate<br>
+      <div class="row">
+        <div class="col-40">
+  <label for="traffic">Estimated Traffic</label>
+        </div>
+        <div class="col-60">
+  <input type="text" value="22500" name="esttraffic" id="esttraffic">
+        </div>
+      </div>
+
+<div class="row">
+  <div class="col-40">
+<label for="avgcr">Average Conversion Rate</label>
+</div>
+<div class="numbercol-40">
+5.45%
+</div>
+</div>
+
+<div class="semrow">
+<label for ="rate">SEM Cannibalization Rate<br></label>
 <h3>80%</h3><br>
+</div>
 
-Dealership Close Rate  <br>
-<input type="text" name="closerate"><br>
+  <div class="row">
+      <div class="col-40">
+<label for="close">Dealership Close Rate (%)</label>
+  </div>
+      <div class="col-60">
+<input type="text" value="5" name="closerate"><br>
+</div>
+</div>
 
 </form>
 
-<br><input type="submit" value="Go!">
+<br><button onclick="submitForm()">Calculate</button>
+<br>
+<div id="results"></div>
+<script>
+  function submitForm () {
+    var e = document.getElementById("calc");
+    var results = e.esttraffic.value * 0.0545 * 0.8 * e.closerate.value/100;
+    document.getElementById("results").innerHTML = results;
+  }
+  function changeValue(e) {
+    document.getElementById("esttraffic").value = e.target.value * 45
+}
+</script>
+
+</div>
   </body>
 </html>
